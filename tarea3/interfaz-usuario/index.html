@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Autenticación y Gestión de Usuarios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bienvenido al Sistema</h1>
+  <div class="form-container">
+    <h2>Registro</h2>
+    <form id="registroForm">
+      <label for="registroUsuario">Usuario:</label>
+      <input type="text" id="registroUsuario" required>
+
+      <label for="registroContraseña">Contraseña:</label>
+      <input type="password" id="registroContraseña" required>
+
+      <button type="submit">Registrarse</button>
+      <p class="error escondido" id="registroError"></p>
+    </form>
+  </div>
+
+  <div class="form-container">
+    <h2>Iniciar Sesión</h2>
+    <form id="inicioSesionForm">
+      <label for="inicioUsuario">Usuario:</label>
+      <input type="text" id="inicioUsuario" required>
+
+      <label for="inicioContraseña">Contraseña:</label>
+      <input type="password" id="inicioContraseña" required>
+
+      <button type="submit">Iniciar Sesión</button>
+      <p class="error escondido" id="inicioError"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

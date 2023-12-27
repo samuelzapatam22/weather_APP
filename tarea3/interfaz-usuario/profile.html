@@ -1,0 +1,33 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil del Usuario</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="profile.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="form-container">
+      <h1>Perfil del Usuario</h1>
+      <div id="userInfo">
+        <!-- Mostrar información del usuario -->
+        <p><strong>Nombre de Usuario:</strong> <span id="currentUsername">NombreActual</span></p>
+        <!-- Agregar más información del usuario según sea necesario -->
+      </div>
+      <form id="updateProfileForm">
+        <label for="updateUsername" class="sr-only">Nuevo Usuario:</label>
+        <input type="text" id="updateUsername" placeholder="Nuevo Usuario">
+
+        <label for="updatePassword" class="sr-only">Nueva Contraseña:</label>
+        <input type="password" id="updatePassword" placeholder="Nueva Contraseña">
+
+        <button type="submit">Actualizar</button>
+      </form>
+      <p class="error escondido" id="updateError">Error al actualizar el perfil</p>
+    </div>
+  </main>
+</body>
+</html>
