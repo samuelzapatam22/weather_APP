@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Configuración del documento HTML -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Enlace al archivo de estilos externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Contenido principal de la aplicación -->
+    <div id="app">
+        <!-- Formulario para ingresar el nombre de la ciudad -->
+        <form id="weatherForm">
+            <label for="city">Enter City:</label>
+            <!-- Campo de entrada para el nombre de la ciudad -->
+            <input type="text" id="city" name="city" placeholder="City name" required>
+            <!-- Botón para obtener el clima, con llamada a la función fetchWeather() al hacer clic -->
+            <button type="submit">Get Weather</button>
+        </form>
+        <!-- Contenedor para mostrar la información del clima -->
+        <div id="weather-info"></div>
+    </div>
+    <!-- Inclusión del archivo de scripts JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <script src="styles.css"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+/* Estilos para el cuerpo del documento */
+body{
+    font-family: 'Roboto', sans-serif; /* Tipo de fuente para el cuerpo del documento */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+    background-color: #f5f5f5; /* Color de fondo para el cuerpo del documento */
+}
+  
+  /* Estilos para el contenedor principal de la aplicación */
+  .container {
+    width: 100%; /* Ancho del contenedor al 100% */
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: 60px auto; /* Margen superior e inferior automáticos, margen izquierdo y derecho automáticos */
+    padding: 20px; /* Relleno interno del contenedor */
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 5px; /* Radio de borde para esquinas redondeadas */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Sombra del contenedor */
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    display: flex; /* Mostrar elementos del formulario en fila */
+    flex-direction: column; /* Organizar elementos del formulario en una columna */
+  }
+  
+  /* Estilos para los campos de entrada */
+  input {
+    width: 100%; /* Ancho del campo de entrada al 100% del contenedor */
+    padding: 10px; /* Relleno interno del campo de entrada */
+    margin-bottom: 20px; /* Margen inferior del campo de entrada */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Radio de borde para esquinas redondeadas */
+    font-size: 14px; /* Tamaño de fuente del campo de entrada */
+  }
+  
+  /* Estilos específicos para el botón de envío del formulario */
+  input[type="submit"] {
+    background-color: #007BFF; /* Color de fondo del botón de envío */
+    color: #fff; /* Color del texto del botón de envío */
+    padding: 10px; /* Relleno interno del botón de envío */
+    border: none; /* Eliminar el borde del botón de envío */
+    border-radius: 5px; /* Radio de borde para esquinas redondeadas */
+    cursor: pointer; /* Cambiar el cursor a un puntero al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente del botón de envío */
+  }
+  
+  /* Estilos para el estado hover del botón de envío */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar el mouse sobre el botón */
+  }
