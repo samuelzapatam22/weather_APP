@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('imagen3.jpg'); 
+    background-position: center; 
+    background-size: cover; 
+}
+
+
+#app {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Añade un fondo semi-transparente para mejorar la legibilidad */
+}
+
+/* Estilos para el formulario */
+#weatherForm {
+    margin-bottom: 20px;
+}
+
+#weatherForm label {
+    font-weight: bold;
+}
+
+#weatherForm input[type="text"] {
+    padding: 8px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#weatherForm button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#weatherForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la información del clima */
+#weather-info {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}

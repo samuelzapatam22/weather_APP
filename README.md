@@ -28,7 +28,7 @@ El proyecto está organizado de la siguiente manera:
 
    ```bash
    1. (En consola) git clone https://github.com/samuelzapatam22/reto2.git
-   2. Ejecutar index.html en el navegador.
+   2. npm start (en la consola de WeatherApp).
    ```
 
    La aplicación se ejecutará en [http://localhost:3000](http://localhost:3000).
@@ -38,7 +38,7 @@ El proyecto está organizado de la siguiente manera:
 
 - **Formulario de Consulta de Clima:**
 
-    ![Alt text](https://github.com/samuelzapatam22/WeatherAPP/blob/main/WeatherApp/imagen1.png)
+    ![alt text](WeatherApp/imagen1.png)
 
 
   - Endpoint `/weather` que muestra un formulario para que el usuario ingrese el nombre de una ciudad.
@@ -46,7 +46,7 @@ El proyecto está organizado de la siguiente manera:
 
 - **Consulta de Clima por Ciudad:**
 
-    ![Alt text](https://github.com/samuelzapatam22/WeatherAPP/blob/main/WeatherApp/imagen2.png)
+    ![alt text](WeatherApp/imagen2.png)
 
 
   - Endpoint `/api/weather/:city` que devuelve información del clima de la ciudad especificada en la ruta, incluyendo temperatura actual, humedad, presión atmosférica y velocidad del viento.
